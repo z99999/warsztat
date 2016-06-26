@@ -1,0 +1,553 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-bold-webfont.eot');
+    src: url('../fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff'),
+         url('../fonts/raleway-bold-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-italic-webfont.eot');
+    src: url('../fonts/raleway-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-italic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-italic-webfont.woff') format('woff'),
+         url('../fonts/raleway-italic-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-italic-webfont.svg#ralewayitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-light-webfont.eot');
+    src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-light-webfont.woff') format('woff'),
+         url('../fonts/raleway-light-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-medium-webfont.eot');
+    src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-medium-webfont.woff') format('woff'),
+         url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-regular-webfont.eot');
+    src: url('../fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff'),
+         url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    width:100%;
+}
+
+body {
+    font-family: "raleway", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color:white;
+    letter-spacing: 1px;
+}
+
+.container {
+    display: block;
+    width:900px;
+    margin:0 auto;
+    /*border: 1px solid red;*/
+    height:inherit;
+}
+
+.row {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    width:900px;
+}
+
+header span {
+    color:#26c7a9;
+    font-weight: bold;
+}
+
+.sitonchair {
+    float:left;
+    height:40px;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+ul {
+    display:inline-block;
+    float:right;
+}
+
+li {
+    display:inline-block;
+    height:40px;
+    line-height: 40px;
+    margin-left: 20px;
+    font-size:13px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    width:100%;
+}
+
+.first-section {
+    background-color:white;
+    background-image: linear-gradient(180deg, #fcfcfc, #cbcfd4);
+}
+
+.left {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 450px;
+    color:#26c7a9;
+    font-size: 65px;
+    line-height: 450px;
+    }
+
+.image {
+    display: inline-block;
+    vertical-align: top;
+    width:365px;
+    height: 450px;
+    background-image: url(../images/black_chair.png);
+    background-size: 135%;
+    background-repeat: no-repeat;
+    background-position: -70px 71px;
+    font-weight: 100;
+}
+
+
+.text-section1 {
+    display: inline-block;
+    vertical-align: top;
+    width:383px;
+    height: 450px;
+    padding-top:75px;
+    text-align: center;
+}
+
+h1 {
+    margin:50px 15px 32px 15px;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.first-section p {
+    margin: 10px 15px 24px 15px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+button {
+    background-color: #26c7a9;
+    font-size: 20px;
+    color:white;
+    font-weight: 100;
+    padding: 11px 35px;
+    border:0px;
+    border-radius: 7px;
+    letter-spacing: 2px;
+}
+
+.right {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    width: 85px;
+    height: 450px;
+    color:#26c7a9;
+    font-size: 65px;
+    line-height: 450px;
+    font-weight: 100;
+}
+
+.second-section {
+    background-color: white;
+}
+
+.second-section-content {
+    display: inline-block;
+    width:285px;
+    background-color:white;
+    border: 1px solid lightgray;
+    margin: 21px 0 60px 0;
+}
+
+    
+.image-box1 {
+    float:left;
+    position:relative;
+    height: 197px;
+    background-image: url(../images/box1_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-box2 {
+    float:left;
+    position:relative;
+    height: 197px;
+    background-image: url(../images/box2_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 21px 21px;
+}
+
+
+.box3 {
+    float:left;
+    position:relative;
+    height:230px;
+}
+
+.transparent {
+    z-index:2;
+    position:absolute;
+    top: 131px;
+    left:-1px;
+    height:52px;
+    width:285px;
+    background-color: rgba(251, 251, 246, .4)
+}
+
+.text {
+    font-size:14px;
+    position:absolute;
+}
+
+.text1-2 {
+    z-index:3;
+    top:140px;
+    left:13px;
+}
+
+.text3 {
+    top:28px;
+    left:20px;
+}
+
+.line {
+    background-color: #26c7a9;
+    height:6.5px;
+    position:absolute;
+}
+
+.line1-2 {
+    z-index:3;
+    width:120px;
+    top:156px;
+    left:13px;
+}
+
+.line3 {
+    width:130px;
+    top:48px;
+    left:20px;
+}
+
+.p-box3 {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 18px;
+    padding: 70px 20px 60px 20px;
+    margin:0;
+    text-align: left;
+}
+
+
+.third-section {
+    background-color: #f0f0f0;
+}
+
+.text-CAPS {
+    font-size: 19px;
+    font-weight: 400;
+    color:#5e5e5e;
+    margin: 40px 0 5px 0;
+}
+
+.line4 {
+    width: 278px;
+}
+
+
+.plan {
+    float:left;
+    z-index: 1;
+    position: relative;
+    width:285px;
+    height:450px;
+    margin: 80px 0 60px 0;
+    border:2px solid #c2c2c2;
+    background-color: #f7f7f7;
+}
+
+.small {
+    border:2px solid #c2c2c2;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top:-37px;
+    left:0;
+    right:0;
+    margin:auto;
+    z-index: 2;
+}
+
+.smaller {
+    background-color: #c2c2c2;
+    position: absolute;
+    z-index: 3;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    top:-24px;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
+.plan-head {
+    font-size:20px;
+    text-align: center;
+    margin-top: 30px;
+    color: #26c7a9;
+}
+
+.circle {
+    width:116px;
+    height:116px;
+    border:2px solid #c2c2c2;
+    margin:25px auto;
+    border-radius: 58px;
+    background-color: white;
+    color: #c2c2c2;
+    font-weight: 600;
+}
+
+.div85-95 {
+    display: block;
+    vertical-align: top;
+    font-size: 38px;
+    text-align: center;
+    margin: 25px 0 4px 0;
+    position:relative;
+    left:-4px;
+}
+
+.div85-95::before {
+    content:"99";
+    font-size: 14px;
+    position:absolute;
+    right: 18px;
+}
+
+.div211 {
+    display: block;
+    vertical-align: top;
+    font-size: 38px;
+    text-align: center;
+    margin: 25px 0 4px 0;
+    position:relative;
+    left:-5px;
+}
+
+.div211::before {
+    content:"00";
+    font-size: 14px;
+    position:absolute;
+    right: 15px;
+}
+
+.PLN {
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
+
+.plan-rectangle-divs {
+    width:282px;
+    height:38px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height:38px;
+    text-align: center;
+}
+
+.rectangle-div1_3 {
+    background-color: #e3e3e3;
+    color:#999999;
+}
+
+.rectangle-div2_4 {
+    background-color: #f0f0f0;
+    color:#8c8c8c;
+}
+
+
+.button2 {
+    position: absolute;
+    right:0;
+    left:0;
+    bottom:18px; /* można też ustawić mu position:relative; oraz margin: 0 auto; */
+    margin:auto;
+    width: 115px;
+    background-color: #26c7a9;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100;
+    padding:7px 27px;
+}
+
+.plan-standard {
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+.plan:hover {
+    border-color: #26c7a9;
+    background-color: #26c7a9;
+}
+
+.plan:hover .small {
+    background-color:#26c7a9;
+    border-color: #26c7a9;
+}
+
+.plan:hover .smaller {
+    background-color:white;
+}
+
+.plan:hover .plan-head {
+    color:white;
+}
+
+.plan:hover .circle {
+    border-color: #26c7a9;
+    color: #26c7a9;
+}
+
+.plan:hover .rectangle-div1_3 {
+    background-color: white;
+    color: #c2c2c2;
+} 
+
+.plan:hover .rectangle-div2_4 {
+    background-color: #f0f0f0;
+    color: #c2c2c2;
+} 
+
+.plan:hover .button2 {
+    background-color: white;
+    color:#26c7a9;
+}
+
+
+.fourth-section {
+    background-color: white;
+}
+
+form {
+    display: inline-block;
+    width:auto;
+}
+
+input {
+    width:550px;
+    padding:10px;
+    font-size:29px;
+    margin-top: 45px;
+    font-weight: 100;
+    border-color: #26c7a9;
+    opacity: .4;
+    letter-spacing: 1px;
+}
+
+.input2 {
+    margin: 20px 0;
+}
+
+textarea {
+    width:550px;
+    height:150px;
+    font-size:29px;
+    resize: none;
+    font-weight: 100;
+    padding:10px;
+    border-color:#26c7a9;
+    opacity: .4;
+    letter-spacing: 1px;
+}
+
+input:focus {
+    opacity:1;
+}
+
+textarea:focus {
+    opacity:1;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.copy {
+    margin-top: 20px;
+    float:left;
+}
+
+.logo {
+    margin-top: 20px;
+    float:right;
+}
