@@ -14,7 +14,14 @@
                 <p class="sitonchair">SIT <span>ON</span> CHAIR</p>
                 <nav>
                     <ul>
-                        <li><a href="">O FIRMIE</a> <div class="menu2"></div></li>
+                        <li class="about"><a href="">O FIRMIE</a>
+                            <div class="triangle hide"></div>
+                            <ul class="menu2 hide">
+                                <li><a href="">Aktualności</a></li>
+                                <li><a href="">Nasz team</a></li>
+                                <li><a href="">Historia</a></li>
+                            </ul>
+                        </li>
                         <li><a href="">GALERIA</a></li>
                         <li><a href="">KONTAKT</a></li>
                     </ul>
@@ -33,7 +40,7 @@
                     
                     <p>An interpreted language is a programming language for which most of its implementations execute instructions directly, without previously compiling a program into machine-language instructions.</p>
                     
-                    <button>ZOBACZ WIĘCEJ</button>
+                    <button class="button1">ZOBACZ WIĘCEJ</button>
                 </div>
                 <div class="right">&gt;</div>
             </div>
@@ -124,11 +131,14 @@
                     <input type="text" name="name" placeholder="Imię">
                     <input type="text" class="input2" name="email" placeholder="email">
                     <textarea placeholder="Wiadomość"></textarea>
-                    <div class="4section-column">
-                        <img src="images/red_chair.png" title="Red chair" alt="Red chair"/>
-                        <img src="images/form_ok.jpg"/>
-                    </div>
                 </form>
+                <div class="fourth-section-column">
+                    <img class="redchair" src="images/red_chair.png" title="Red chair" alt="Red chair"/>
+                    <div class="ok-form">
+                        <img class="ok" src="images/form_ok.jpg"/>
+                        <p class="zgoda">Zgadzam się na przetwarzanie danych osobowych</p>
+                    </div>
+                    <button class="button3">WYŚLIJ</button>
                 </div>
             </div>
         </div>
@@ -139,8 +149,14 @@
     
     <footer>
         <div class="container">
-            <div class="copy">&copy;2016 Zuzia</div>
-            <div class="logo">LOGO</div>
+            <div class="copy">Copyright 2016 | All Rights Reserved. - Sit On Chair</div>
+            <div class="socialmedia">
+                <img src="images/flickr.png"/>
+                <img src="images/vimeo.png"/>
+                <img src="images/pinterest.png"/>
+                <img src="images/twitter.png"/>
+                <p>SIT <span>ON</span> CHAIR</p>
+            </div>
         </div>
     </footer>
     
